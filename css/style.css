@@ -242,7 +242,10 @@ a {
 }
 #gmap_canvas{
   position: absolute;
-  
+}
+.navlinks{
+  display: flex;
+  justify-content: flex-end;
 }
 .credit-icon{
   height: 100px;
@@ -481,11 +484,10 @@ a {
     width: auto;
 }
 .bar .bar-item {
-    padding: 8px 16px;
-    float: left;
     width: auto;
     border: none;
-    display: block;
+    display: flex;
+    justify-content: flex-start;
     outline: 0;
 }
 .bar .dropdown-hover,
@@ -1203,7 +1205,7 @@ a {
 }
 .button:hover {
     color: #000 !important;
-    background-color: #ccc !important;
+    
 }
 .transparent,
 .hover-none:hover {
