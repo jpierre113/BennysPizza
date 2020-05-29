@@ -240,6 +240,11 @@ img {
 a {
     color: inherit;
 }
+.credit-icon{
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+}
 .table,
 .table-all {
     border-collapse: collapse;
