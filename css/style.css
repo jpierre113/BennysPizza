@@ -478,6 +478,7 @@ a {
 .bar {
     width: 100%;
     overflow: hidden;
+
 }
 .center .bar {
     display: inline-block;
@@ -786,6 +787,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 1;
+    left: 0;
 }
 .top {
     top: 0;
@@ -1199,13 +1201,14 @@ a {
 }
 .left {
     float: left !important;
+
 }
 .right {
     float: right !important;
 }
 .button:hover {
     color: #000 !important;
-    
+
 }
 .transparent,
 .hover-none:hover {
